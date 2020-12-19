@@ -1,1 +1,2 @@
 # botometer-checker-azure
+A dockerized application that reads tweet objects from an Azure Event Hub, uses [Botometer](https://botometer.osome.iu.edu/)  to check the account that posted each tweet for the probability to demonstrate a bot-like behavior and stores the result in a Cosmos DB container.
